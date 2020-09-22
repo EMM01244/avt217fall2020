@@ -12,6 +12,7 @@ body {
 p {
   font-family: baroque-text-jf;
   font-style: italic;
+  font-size: 36px;
   font-weight: 600;
   color: yellow;
 }
