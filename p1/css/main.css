@@ -1,14 +1,17 @@
 h1 {
-  color: red;
+  color: yellow;
 }
-
+h2 {
+  font-style: italic;
+  color: lightgreen;
+}
 body {
-  background-color: pink;
+  background-color: red;
 }
 
 p {
-  font-family: baroque-text-jf, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: baroque-text-jf;
+  font-style: italic;
+  font-weight: 600;
   color: yellow;
 }
