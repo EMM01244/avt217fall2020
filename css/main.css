@@ -1,3 +1,13 @@
 body {
   background-color: yellow;
+  font-family: brothers, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+}
+h1 {
+  font-family: september, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: green;
 }
