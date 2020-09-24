@@ -4,10 +4,27 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
+  margin-left: 200px
+
 }
+.exercise {
+
+}
+
 h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px
   font-family: september, sans-serif;
   font-style: normal;
+  font-size: 4rem;
   font-weight: 700;
   color: green;
+}
+.page1 h1 {
+
+
+}
+
+img{
+  max-width: 100%
 }
