@@ -30,8 +30,8 @@ main{
   float: left;
   opacity: .5;
   transform: rotate(20deg);
-    border-radius: 50%;
-    border: 5px solid black;
+  border-radius: 50%;
+  border: 5px solid black;
 }
 .shape3 {
   background-color: darkblue;
