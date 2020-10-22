@@ -3,8 +3,11 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
+}
+.board {
+
 }
 .red, .black {
   width: 100px;
@@ -15,5 +18,5 @@ body{
   background-color: tomato;
 }
 .black {
-  background-color: #333333
+  background-color: #333333;
 }
