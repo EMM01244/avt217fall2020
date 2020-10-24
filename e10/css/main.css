@@ -7,7 +7,13 @@ body {
   margin: 0;
 }
 .board {
-
+  width: 820px;
+  border: 10px solid yellow;
+  display: flow-root;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 .red, .black {
   width: 100px;
@@ -19,4 +25,22 @@ body {
 }
 .black {
   background-color: #333333;
+}
+.col {
+  width: 50px;
+  height: 600px;
+  color: red;
+  float: right;
+}
+.header {
+  align-items: stretch;
+}
+.footer {
+  height: 200px;
+}
+.sidebar {
+
+}
+.content {
+
 }
