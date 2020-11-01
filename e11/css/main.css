@@ -1,49 +1,65 @@
-body {
-  background-color: yellow
-}
 
+.container,ears,headoval,eyes,nose,mouth,whiskers {
+  position: absolute;
+}
 
 .mouth {
-  width: 820px;
-  border: 10px solid yellow;
-  display: flow-root;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 0;
-}
-.tongue{
+  height: 4px;
+  width: 10px;
 
 }
-.head {
+.headoval {
   width: 100px;
-  height: 100px;
+  height: 50px;
   float: left;
+  background-color: black;
 }
 .whiskers {
-  background-color: tomato;
+  background-color: yellow;
+  height: 2px;
+  width: 4px;
+}
+.whiskersright{
+  background-color: yellow;
+  height: 2px;
+  width: 4px;
 }
 .ears {
-  background-color: #333333;
+  background-color: black;
+  width: 0;
+  height: 0;
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 20px;
 }
-.whiteears {
-
+.ears.right {
+   transform: translateX(20px);
 }
-
-
- .cat {
-   background-color: black;
-   display: flow-root;
-   width: 960px;
-   margin-left: auto;
-   margin-right: auto;
- }
 .eyes {
-  width: 940px;
+  width: 20px;
   height: 10px;
   background-color: red;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
   float: left;
+}
+.eyesright {
+  transform: translateX(20px);
+}
+.pupils{
+  height: 5px;
+  width: 5px;
+  background-color: white
+  border-radius: 5%
+}
+.pupils.right{
+  transform: translateX(20px);
+}
+.nose {
+  width: 0;
+  height: 0;
+  border-left: 5px;
+  border-right: 5px;
+  border-top: 10px;
 }
