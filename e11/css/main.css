@@ -1,0 +1,49 @@
+body {
+  background-color: yellow
+}
+
+
+.mouth {
+  width: 820px;
+  border: 10px solid yellow;
+  display: flow-root;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.tongue{
+
+}
+.head {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.whiskers {
+  background-color: tomato;
+}
+.ears {
+  background-color: #333333;
+}
+.whiteears {
+
+}
+
+
+ .cat {
+   background-color: black;
+   display: flow-root;
+   width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+.eyes {
+  width: 940px;
+  height: 10px;
+  background-color: red;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+}

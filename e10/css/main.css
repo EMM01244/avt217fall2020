@@ -53,6 +53,7 @@ body {
   float: left;
 }
  .main {
+   background-color: black;
    display: flow-root;
    width: 960px;
    margin-left: auto;
@@ -118,7 +119,7 @@ body {
 
 }
 .bar2{
-  width; 
+  width;
 
 }
 .column3{
