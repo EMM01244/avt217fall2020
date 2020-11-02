@@ -5,8 +5,9 @@
   width: 400px;
   background-color: purple;
   border-radius: 100%;
-  top: 250px;
-  left: 250px;
+  top: 350px;
+  left: 200px;
+  position: absolute;
 
 
 }
@@ -50,8 +51,10 @@
   height: 5px;
   width: 200px;
   position: absolute;
-  top: 250px;
+  top: 220px;
   right: 100px;
+  transform: rotateY(10deg);
+
 }
 .whiskersright2 {
   background-color: yellow;
@@ -60,6 +63,7 @@
   position: absolute;
   top: 250px;
   right: 100px;
+
 }
 .whiskersright3 {
   background-color: yellow;
@@ -68,43 +72,65 @@
   position: absolute;
   top: 250px;
   right: 100px;
+  transform: rotateY(-10deg);
 }
 .ears {
-  background-color: black;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 20px solid black;
-  top: 10px;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 50px solid black;
+  top: 100px;
   left: 10px;
+  position: absolute;
+  transform: rotate(-30deg);
 }
-.ears.right {
-   transform: translateX(20px);
-
+.earsright {
+   width: 0;
+   height: 0;
+   border-left: 35px solid transparent;
+   border-right: 35px solid transparent;
+   border-bottom: 50px solid black;
+   top: 100px;
+   right: 10px;
+   position: absolute;
+   transform: rotate(30deg);
 }
 .eyes {
-  width: 20px;
-  height: 10px;
-  background-color: red;
+  width: 200px;
+  height: 100px;
+  background-color: white;
   position: absolute;
-  border-radius: ;
+  border-radius: 100% ;
+  top: 100px;
+  left: 100px;
 }
 .eyesright {
-  width: 20px;
-  height: 10px;
-  background-color: red;
-  border-radius: ;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100%;
   position: absolute;
+  top: 100px;
+  right: 100px;
 }
 .pupils{
-  height: 5px;
-  width: 5px;
-  background-color: white;
-  border-radius: 5%;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 50%;
+  top: 130px;
+  left: 180px;
+  position: absolute;
 }
-.pupils.right{
-  transform: translateX(20px);
+.pupilsright{
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 50%;
+  top: 130px;
+  right: 180px;
+  position: absolute;
 }
 .nose {
   width: 0;
