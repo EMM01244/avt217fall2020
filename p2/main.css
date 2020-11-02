@@ -21,3 +21,8 @@ main{
   margin: 25px auto;
   display: flow-root;
 }
+.row {
+  width: 100%;
+  display: flow-root;
+  margin-bottom: 50px;
+}
