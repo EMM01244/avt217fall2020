@@ -1,0 +1,118 @@
+
+
+.mouth {
+  height: 20px;
+  width: 400px;
+  background-color: purple;
+  border-radius: 100%;
+  top: 250px;
+  left: 250px;
+
+
+}
+.face {
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  border-radius: 100%;
+  background-color: black;
+  top: 250px;
+  left: 500px;
+}
+.whiskers {
+  background-color: yellow;
+  height: 5px;
+  width: 200px;
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  transform: rotate(10deg);
+}
+.whiskersleft2 {
+  background-color: yellow;
+  height: 5px;
+  width: 200px;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+.whiskersleft3 {
+  background-color: yellow;
+  height: 5px;
+  width: 200px;
+  position: absolute;
+  top: 280px;
+  left: 100px;
+  transform: rotate(-10deg);
+}
+.whiskersright {
+  background-color: yellow;
+  height: 5px;
+  width: 200px;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+}
+.whiskersright2 {
+  background-color: yellow;
+  height: 5px;
+  width: 200px;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+}
+.whiskersright3 {
+  background-color: yellow;
+  height: 5px;
+  width: 200px;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+}
+.ears {
+  background-color: black;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid black;
+  top: 10px;
+  left: 10px;
+}
+.ears.right {
+   transform: translateX(20px);
+
+}
+.eyes {
+  width: 20px;
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  border-radius: ;
+}
+.eyesright {
+  width: 20px;
+  height: 10px;
+  background-color: red;
+  border-radius: ;
+  position: absolute;
+}
+.pupils{
+  height: 5px;
+  width: 5px;
+  background-color: white;
+  border-radius: 5%;
+}
+.pupils.right{
+  transform: translateX(20px);
+}
+.nose {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid pink;
+  position: absolute;
+  top: 200px;
+  left: 350px;
+}
