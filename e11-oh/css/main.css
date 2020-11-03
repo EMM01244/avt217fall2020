@@ -53,7 +53,7 @@
   position: absolute;
   top: 220px;
   right: 100px;
-  transform: rotateY(10deg);
+  transform: rotate(-10deg);
 
 }
 .whiskersright2 {
@@ -70,29 +70,29 @@
   height: 5px;
   width: 200px;
   position: absolute;
-  top: 250px;
+  top: 280px;
   right: 100px;
-  transform: rotateY(-10deg);
+  transform: rotate(10deg);
 }
 .ears {
   width: 0;
   height: 0;
-  border-left: 35px solid transparent;
-  border-right: 35px solid transparent;
-  border-bottom: 50px solid black;
-  top: 100px;
-  left: 10px;
+  border-left: 260px solid transparent;
+  border-right: 211px solid transparent;
+  border-bottom: 300px solid black;
+  top: -131px;
+  left: -106px;
   position: absolute;
   transform: rotate(-30deg);
 }
 .earsright {
    width: 0;
    height: 0;
-   border-left: 35px solid transparent;
-   border-right: 35px solid transparent;
-   border-bottom: 50px solid black;
-   top: 100px;
-   right: 10px;
+   border-left: 260px solid transparent;
+   border-right: 211px solid transparent;
+   border-bottom: 300px solid black;
+   top: -131px;
+   right: -106px;
    position: absolute;
    transform: rotate(30deg);
 }
@@ -115,20 +115,20 @@
   right: 100px;
 }
 .pupils{
-  height: 50px;
-  width: 50px;
+  height: 85px;
+  width: 65px;
   background-color: green;
   border-radius: 50%;
-  top: 130px;
+  top: 115px;
   left: 180px;
   position: absolute;
 }
 .pupilsright{
-  height: 50px;
-  width: 50px;
+  height: 85px;
+  width: 65px;
   background-color: green;
   border-radius: 50%;
-  top: 130px;
+  top: 115px;
   right: 180px;
   position: absolute;
 }
