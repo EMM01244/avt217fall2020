@@ -142,3 +142,75 @@
   top: 200px;
   left: 350px;
 }
+.body {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  background-color: black;
+  top: 650px;
+  left: 500px;
+}
+.feetright {
+  width: 250px;
+  height: 200px;
+  background-color: gray;
+  border-radius: 100%;
+  position: absolute;
+  top: 650px;
+  right: 100px;
+}
+.feetleft {
+  width: 250px;
+  height: 200px;
+  background-color: gray;
+  position: absolute;
+  border-radius: 100% ;
+  top: 650px;
+  left: 100px;
+}
+.toe1 {
+  width: 30px;
+  height: 80px;
+  background-color: black;
+  border-radius: 100%;
+  position: absolute;
+  top: 150px;
+  left: 40px;
+}
+.toe2 {
+  width: 30px;
+  height: 80px;
+  background-color: black;
+  border-radius: 100%;
+  position: absolute;
+  top: 150px;
+  left: 90px;
+}
+.toe3 {
+  width: 30px;
+  height: 80px;
+  background-color: black;
+  border-radius: 100%;
+  position: absolute;
+  top: 150px;
+  left: 140px;
+}
+.toe4 {
+  width: 30px;
+  height: 80px;
+  background-color: black;
+  border-radius: 100%;
+  position: absolute;
+  top: 150px;
+  left: 190px;
+}
+.tail {
+  width: 900px;
+  height: 80px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100px;
+  left: 420px;
+}

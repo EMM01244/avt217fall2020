@@ -16,7 +16,7 @@ h2{
   width: 50%;
   float: left;
 }
-main{
+main,header {
   width: 75vw;
   margin: 25px auto;
   display: flow-root;
@@ -26,6 +26,7 @@ main{
   display: flow-root;
   margin-bottom: 50px;
 }
+
 @media screen and (max-width: 2437px) {
   .col {
     width: 100%;
