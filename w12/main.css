@@ -50,11 +50,9 @@ margin-left: 25px;
   background: url(../img/puffins-3.jpg) no-repeat center center;
   background-size: cover;
   padding: 250px 100px
-
 }
 .hero h1, .tagline {
   text-align: center;
-
 }
 .hero h1 {
   font-size: 6rem;
