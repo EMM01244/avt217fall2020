@@ -3,10 +3,10 @@
 }
 body{
 margin: 0;
-color: #111;
+color: black;
 }
 header {
-  background-color: red;
+  background-color: lightgreen;
   display: flow-root;
   padding: 10px 50px;
   position: relative;
@@ -18,7 +18,7 @@ footer {
   background-color: yellow;
 }
 .title {
-  float: left;
+  text-align: center;
 }
 .title p {
   font-size: 24px;
@@ -26,17 +26,22 @@ footer {
   letter-spacing: 1px;
 }
 nav {
-  float: right;
+  width: 237px;
   margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 nav a, nav a:link, nav a:visited {
   text-transform: lowercase;
   text-decoration: none;
-  font-style: italic;
+  font-size: 20px;
   color: #111;
 }
-nav a, nav a:hover, nav a:active {
+nav a:hover, nav a:active {
   color: white;
+}
+nav a.highlight{
+  color: red;
 }
 ul {
   padding: 0;
@@ -47,7 +52,7 @@ float: left;
 margin-left: 25px;
 }
 .hero {
-  background: url(../img/puffins-3.jpg) no-repeat center center;
+  background: url(../img/redblob.jpg) no-repeat center center;
   background-size: cover;
   padding: 250px 100px
 }
@@ -58,13 +63,6 @@ margin-left: 25px;
   font-size: 6rem;
   margin-bottom: 25px;
 }
-
-
-
-
-
-
-
 h1{
   font-family: brim-narrow-combined-1, sans-serif;
   font-weight: 400;
@@ -90,7 +88,7 @@ h2{
    width: 100%;
 }
 .sectionbreak {
-    background-color: #333333;
+    background-color: lightblue;
     padding: 150px 100px;
 }
 .sectionbreak p {
@@ -99,7 +97,7 @@ h2{
     text-align: center;
 }
 footer {
-  background-color: #333333;
+  background-color: lightgray;
   padding: 50px 100px;
 }
 footer p {
