@@ -26,7 +26,7 @@ footer {
   letter-spacing: 1px;
 }
 nav {
-  width: 237px;
+  width: 400px;
   margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
@@ -46,10 +46,11 @@ nav a.highlight{
 ul {
   padding: 0;
   list-style-type: none;
+  margin-left: 25px;
 }
 li {
-float: left;
-margin-left: 25px;
+  float: left;
+  margin-left: 25px;
 }
 .hero {
   background: url(../img/redblob.jpg) no-repeat center center;
@@ -67,14 +68,18 @@ h1{
   font-family: brim-narrow-combined-1, sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-left: 50px;
 }
 p{
-  color: blue;
+  color: black;
+  margin-right: 150px;
+  margin-left: 50px;
 }
 h2{
   font-family: brim-narrow-combined-1, sans-serif;
   font-weight: 100;
   font-style: normal;
+  margin-left: 50px;
 }
 
 .col {
@@ -90,10 +95,11 @@ h2{
 .sectionbreak {
     background-color: lightblue;
     padding: 150px 100px;
+    margin-right: 125px;
 }
 .sectionbreak p {
     font-size: 30px;
-    color: whitesmoke;
+    color: darkblue;
     text-align: center;
 }
 footer {
@@ -101,7 +107,7 @@ footer {
   padding: 50px 100px;
 }
 footer p {
-  color: whitesmoke;
+  color: black;
   text-align: center;
 }
 main,header {
