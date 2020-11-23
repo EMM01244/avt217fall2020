@@ -118,15 +118,22 @@
 
 
 
-@keyframes move {
+@keyframes bounce {
   from {
-    margin-left: 100%;
-    width: 300%;
+    left: 180px;
   }
 
   to {
-    margin-left: 0%;
-    width: 100%;
+    left: 150px;
+  }
+}
+@keyframes bounce2 {
+  from {
+    right: 180px;
+  }
+
+  to {
+    right: 150px;
   }
 }
 .pupils{
@@ -137,7 +144,7 @@
   top: 115px;
   left: 180px;
   position: absolute;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: bounce;
   animation-direction: alternate;
@@ -150,9 +157,9 @@
   top: 115px;
   right: 180px;
   position: absolute;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-name: bounce;
+  animation-name: bounce2;
   animation-direction: alternate;
 }
 .nose {
