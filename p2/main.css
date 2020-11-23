@@ -68,18 +68,16 @@ h1{
   font-family: brim-narrow-combined-1, sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 50px;
 }
 p{
   color: black;
-  margin-right: 150px;
-  margin-left: 50px;
 }
+
 h2{
   font-family: brim-narrow-combined-1, sans-serif;
   font-weight: 100;
   font-style: normal;
-  margin-left: 50px;
+  text-align: center;
 }
 
 .col {
@@ -95,7 +93,6 @@ h2{
 .sectionbreak {
     background-color: lightblue;
     padding: 150px 100px;
-    margin-right: 125px;
 }
 .sectionbreak p {
     font-size: 30px;
@@ -119,11 +116,10 @@ main,header {
   width: 100%;
   margin-bottom: 50px;
   display: flow-root;
-  width: 80vw;
   margin: 0 auto;
   padding: 25px 0;
 }
-@@media only screen and (max-width: 2437px) {
+@media only screen and (max-width: 900px) {
    .hero{
      padding: 50px 50px;
    }
@@ -132,5 +128,14 @@ main,header {
    }
    .col-margin {
      margin: 0;
+   }
+   .hero h1 {
+     font-size: 4rem;
+   }
+   .sectionbreak p {
+       font-size: 20px;
+   }
+   main,header {
+     width: 95vw;
    }
 }
