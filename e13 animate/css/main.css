@@ -114,6 +114,28 @@
   top: 100px;
   right: 100px;
 }
+
+
+
+
+@keyframes bounce {
+  from {
+    left: 180px;
+  }
+
+  to {
+    left: 150px;
+  }
+}
+@keyframes bounce2 {
+  from {
+    right: 180px;
+  }
+
+  to {
+    right: 150px;
+  }
+}
 .pupils{
   height: 85px;
   width: 65px;
@@ -122,6 +144,10 @@
   top: 115px;
   left: 180px;
   position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-direction: alternate;
 }
 .pupilsright{
   height: 85px;
@@ -131,6 +157,10 @@
   top: 115px;
   right: 180px;
   position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce2;
+  animation-direction: alternate;
 }
 .nose {
   width: 0;
