@@ -1,5 +1,8 @@
 body {
   background-color: yellow;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
   font-family: brothers, sans-serif;
   font-style: normal;
   font-weight: 400;
