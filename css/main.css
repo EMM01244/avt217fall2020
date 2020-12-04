@@ -3,6 +3,7 @@ body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container */
+  /*background-position: center; /* Center the image */
   font-family: brothers, sans-serif;
   font-style: normal;
   font-weight: 400;
